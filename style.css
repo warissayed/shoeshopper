@@ -43,6 +43,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
   
 }
 .menuItem{
@@ -236,12 +237,12 @@ border-bottom: 1px solid gray;
   bottom: -40px;
   width: 100%;
   left: 0;
-  background-color: rgb(48, 163, 33);
+  background-color: rgb(133, 130, 130);
   font-size: 15px;
   font-weight: 600;
   border: none;
   border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  
   box-shadow: 8px 9px 50px 5px rgba(0,0,0,0.75);
 -webkit-box-shadow: 8px 9px 50px 5px rgba(0,0,0,0.75);
 -moz-box-shadow: 8px 9px 50px 5px rgba(0,0,0,0.75);
@@ -313,4 +314,94 @@ cursor: pointer;
 .productbtn:hover{
 color: black;
 background-color: white;
+}
+.gallery{
+  padding: 50px;
+  display: flex;
+}
+.galleryItem{
+ flex: 1;
+ padding: 50px;
+}
+.galleryImg{
+  width: 100%;
+ 
+}
+.newSeason{
+  display: flex;
+
+}
+.nsItem{
+  flex: 1;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.newSeasonimg{
+  width: 100%;
+  height: 500px;
+  width: 450px;
+  
+}
+.nsTitle{
+  font-size: 40px;
+  padding: 30px;
+}
+.nsBtn{
+  padding: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+footer{
+  display: flex;
+}
+.footerLeft{
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.ftMenuTitle{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.fList{
+  padding: 0;
+  list-style: none;
+}
+.fListItem{
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.footerRight{
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.finput{
+  padding: 5px;
+}
+.fbtn{
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+.ficons{
+  display: flex;
+}
+.ficon{
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+.copyright{
+  font-weight: 500;
+  font-size: 14px;
 }
