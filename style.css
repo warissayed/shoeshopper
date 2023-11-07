@@ -405,3 +405,100 @@ margin-right: 10px;
   font-weight: 500;
   font-size: 14px;
 }
+@media screen and (max-width:480px) {
+  nav{
+    padding: 20px;
+  }
+  .scarch{
+   display: none;
+  }
+  .navBottem{
+    flex-wrap: wrap;
+  }
+.menuItem{
+  margin: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.slider{
+  clip-path: none;
+}
+.imgSlider{
+  width: 90%;
+}
+.sliderBg{
+  width: 100%;
+  height: 100%;
+}
+.sliderTitle{
+  display: none;
+}
+.sliderPrice{
+  top: unset;
+  bottom: 0;
+  left: 0;
+  background-color: lightgray;
+
+  }
+.byeNowBtn{
+ 
+  right: 0;
+  top: 0;
+
+  }
+  .feachers{
+   flex-direction: column;
+  }
+.productImg{
+  width: 80%;
+  }
+  .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .productDetails{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 0;
+  }
+  .productTitle{
+    font-size: 50px;
+    margin: 0;
+  }
+.gallery{
+  display: none;
+  }
+.newSeason{
+  flex-direction: column;
+}
+.nsItem:nth-child(2){
+  padding: 50px;
+
+  }
+footer{
+flex-direction: column;
+align-items: center;
+
+}
+.footerLeft{
+  padding: 20px;
+  width: 90%;
+}
+.footerRight{
+  
+  padding: 20px;
+  width: 90%;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.payment{
+  width: 90%;
+  padding: 20px;
+}
+}
